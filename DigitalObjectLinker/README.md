@@ -13,6 +13,7 @@ thumb:url (or whichever prefix you choose in your config settings)
 By creating two Relation fields, you can display this image of a cardinal (from Flickr)
 
 full:http://farm5.staticflickr.com/4002/4335389188_e6afd9bd11_b.jpg
+
 thumb:http://farm5.staticflickr.com/4002/4335389188_e6afd9bd11_b.jpg
 
 ### Version History
