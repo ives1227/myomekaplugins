@@ -118,7 +118,7 @@ class DigitalObjectLinkerPlugin extends Omeka_Plugin_AbstractPlugin
     	}
     	else
     	{
-    		return NULL;
+    		return "<div></div>";
     	}
     }  
     
