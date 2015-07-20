@@ -20,10 +20,14 @@ By creating two Relation fields, you can display this image of a cardinal (from 
 The linkto is a link to a page about cardinals.
 
 full:001:http://farm5.staticflickr.com/4002/4335389188_e6afd9bd11_b.jpg
+
 thumb:001:http://farm5.staticflickr.com/4002/4335389188_e6afd9bd11_b.jpg
+
 linkto:001:http://www.allaboutbirds.org/guide/Northern_Cardinal/id
 
+
 full:002:https://farm3.staticflickr.com/2493/4029458470_cdb906e7a7_b_d.jpg
+
 thumb:002:https://farm3.staticflickr.com/2493/4029458470_cdb906e7a7_m_d.jpg
 
 ### Version History
