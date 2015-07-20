@@ -5,6 +5,9 @@
 <label for="digitalobjectlinkerplugin_full_image_tag">Full image tag indicator (ex full:):</label>
 <p><?php echo get_view()->formText('digitalobjectlinkerplugin_full_image_tag', 
                               get_option('digitalobjectlinkerplugin_full_image_tag'));?></p>
+<label for="digitalobjectlinkerplugin_full_image_tag">Linkto tag indicator (ex linkto:):</label>
+                              <p><?php echo get_view()->formText('digitalobjectlinkerplugin_linkto_tag', 
+                              get_option('digitalobjectlinkerplugin_linkto_tag'));?></p>
 <h3>Admin Interface</h3>
 <label for="digitalobjectlinkerplugin_embed_admin">Embed thumb in admin item show pages?</label>
 <p><?php echo get_view()->formCheckbox('digitalobjectlinkerplugin_embed_admin', 
@@ -23,4 +26,7 @@
 <p><?php echo get_view()->formText('digitalobjectlinkerplugin_width_public', 
                               get_option('digitalobjectlinkerplugin_width_public'), 
                               array('size' => 5));?></p>
-
+<label for="digitalobjectlinkerplugin_items_page_width_public">Image width for items page, in pixels:</label>
+<p><?php echo get_view()->formText('digitalobjectlinkerplugin_items_page_width_public', 
+                              get_option('digitalobjectlinkerplugin_items_page_width_public'), 
+                              array('size' => 5));?></p>
