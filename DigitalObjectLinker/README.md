@@ -30,7 +30,12 @@ full:002:https://farm3.staticflickr.com/2493/4029458470_cdb906e7a7_b_d.jpg
 
 thumb:002:https://farm3.staticflickr.com/2493/4029458470_cdb906e7a7_m_d.jpg
 
+
 ### Version History
+
+*2.0.1*
+
+* Removed the 'display_elements' filter which suppresses the images from displaying under the 'Relation' field.
 
 *2.0.0*
 

@@ -41,8 +41,7 @@ class DigitalObjectLinkerPlugin extends Omeka_Plugin_AbstractPlugin
     /**
      * @var array Filters for the plugin.
      */
-    protected $_filters = array('replaceDigitalObjectRelations' => array('Display', 'Item', 'Dublin Core', 'Relation'),
-    							'display_elements');
+    protected $_filters = array('replaceDigitalObjectRelations' => array('Display', 'Item', 'Dublin Core', 'Relation'));
 
     /**
      * @var array Options and their default values.
@@ -143,7 +142,10 @@ class DigitalObjectLinkerPlugin extends Omeka_Plugin_AbstractPlugin
     /**
      * This hides the relation field if it only has the image.  If additional
      * text is in the fields, then the field is displayed but the CSS hides the
-     * image.
+     * image. This is useful if you choose to display your images in a different place on the 'show' page.
+     * The default will display your images under the 'Relation' field
+     * 
+     * If you would like to activate this filter, add 'display_elements' to the $_filters array above.
      * 
      * The basis of this code was taken from the HideElementsPlugin.php.
      * @param  array $elementsBySet
